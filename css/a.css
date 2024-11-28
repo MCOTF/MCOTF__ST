@@ -85,6 +85,7 @@ ul{
 /* 以上标题 */
 
 #背景图{
+	min-height: 500px;
 	/* z-index: 2; */
 	box-shadow: 1px 1px 3px black;
 	/* animation: delay;*/
