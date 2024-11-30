@@ -1,5 +1,6 @@
 /* 存放一些感觉完全设计ok，之后不会再变化的内容 */
 body{
+	/* background-color: #000; */
 	background-color: #f5f6f7;
 	font-family: "Comic Sans MS";
 	/* 移动端Text Autosizer特性，字体会无故变大变高 */
@@ -131,7 +132,7 @@ ul{
 	/* 干涉全局：避免过小以及绝对定位情况 */
 	/* min-height: 350px; */
 	margin: 1%;
-	padding: 1%;
+	padding: 2%;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px #f5f6f7;
 	background-color: white;
@@ -189,13 +190,35 @@ iframe{
 	overflow: auto;
 }
 
+#联系方式表{
+	display: flex;
+	justify-content: center;
+	/* height: 60px; */
+/* 	position: relative;
+	left: 10%;
+	right: 10%; */
+	/* width: 100%; */
+	/* background-color: #111213; */
+}
+
+.联系方式图标{
+	/* background-color: #fff; */
+	/* margin: auto; */
+	/* margin: 20%; */
+	/* width: 11%; */
+	margin: 20px;
+	height: 60px;
+	/* overflow: scroll; */
+	/* background-color: #B5C9FC; */
+}
+
 #下载列表{
 	width: 90%;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin: 0 auto;
-	background-color: #111213;
-	border-radius: 5px;
+	/* background-color: #111213; */
+	/* border-radius: 50px; */
 }
 #下载列表 th,td{
 	background-color: #f5f6f7;
@@ -205,9 +228,10 @@ iframe{
 	background-color: #B5C9FC;
 	color: royalblue;
 }
-#下载列表 td:nth-child(even){
-	background-color: #f5f6f7;
-}
+/* #下载列表 td:nth-child(even){
+	background-color: deepskyblue;
+} */
+
 
 .聊天群图{
 	/* 3张占99% */
@@ -215,13 +239,13 @@ iframe{
 	width: 22%;
 }
 
-#收款图{
+.收款图{
 	position: relative;
 	border-radius: 50px;
 	right: 20%;
 	left: 20%;
 	width: 60%;
-	filter: blur(0px);
+	/* margin-top: 30px; */
 }
 
 #底部导航栏{
