@@ -51,7 +51,7 @@ ul{
 }
 .b1a层{
 	/* 没用，方便观察 */
-	font-size: 1.2em;zzzzzzzs
+	font-size: 1.2em;
 	margin: 0 1px;
 	padding: 15px 1em 0px 15px;
 	width: auto;
@@ -76,21 +76,23 @@ ul{
 /* 以上标题 */
 
 #背景图{
-	min-height: 500px;
+	/* min-height: 500px; */
 	box-shadow: 1px 1px 3px black;
-	filter: blur(10px);
+	filter: blur(3px);
 	width: 100%;
 }
 #首页标题{
 	position: absolute;
-	top: 7%;
+	top: 100px;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 250px;
+	height: 2px;
 	color: white;
+	
 }
-#首页文字{
+.首页文字{
+	/* color: linear-gradient(90deg,#207DF5,#65F6F2); */
 	font-size: 5em;
 	text-align: center;
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
@@ -212,6 +214,9 @@ iframe{
 	/* overflow: scroll; */
 	/* background-color: #B5C9FC; */
 }
+#下载背景{
+
+}
 
 #下载列表{
 	width: 90%;
@@ -236,10 +241,12 @@ iframe{
 .流程介绍{
 	/* height: 300px; */
 	/* background-color: lightgrey; */
+	width: auto;
 	padding: 20px;
 	border: 1px dashed gray;
 	border-radius: 20px;
 }
+
 
 .聊天群图{
 	/* 3张占99% */
