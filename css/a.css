@@ -78,7 +78,7 @@ ul{
 #背景图{
 	/* min-height: 500px; */
 	box-shadow: 1px 1px 3px black;
-	filter: blur(5px);
+	filter: blur(6px);
 	width: 100%;
 }
 #首页标题{
@@ -273,3 +273,4 @@ iframe{
 	bottom: 0%;
 
 }
+
